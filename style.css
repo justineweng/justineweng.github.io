@@ -170,6 +170,7 @@ section:last-of-type { border-bottom: none; }
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+  margin-top: 1.5rem;
 }
 
 /* ── BUTTONS ── */
