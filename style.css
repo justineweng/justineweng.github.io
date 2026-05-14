@@ -1,14 +1,14 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --cream: #f9f6f1;
+  --cream: #faf8f5;
   --white: #ffffff;
   --ink: #1a1a18;
   --ink-mid: #4a4a46;
   --ink-light: #8a8a84;
-  --accent: #2e5c3e;
-  --accent-light: #e8f0eb;
-  --border: #e2ddd6;
+  --accent: #a0522d;
+  --accent-light: #f5ede8;
+  --border: #e4ddd4;
   --serif: 'PT Serif', Georgia, serif;
   --sans: 'Lato', system-ui, sans-serif;
 }
