@@ -34,32 +34,33 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(249,246,241,0.92);
+  background: rgba(250,248,245,0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
-  padding: 0 2rem;
+  padding: 1.25rem 2rem 1rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 56px;
+  gap: 0.5rem;
 }
-
+ 
 .nav-name {
   font-family: var(--serif);
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   color: var(--ink);
   text-decoration: none;
   letter-spacing: 0.01em;
+  line-height: 1;
 }
-
+ 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1.75rem;
   list-style: none;
 }
-
+ 
 .nav-links a {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -68,12 +69,13 @@ nav {
   transition: color 0.2s;
   padding-bottom: 2px;
 }
-
+ 
 .nav-links a:hover,
 .nav-links a.active {
   color: var(--ink);
   border-bottom: 1px solid var(--ink);
 }
+ 
 
 /* ── LAYOUT ── */
 .container {
