@@ -285,7 +285,7 @@ section:last-of-type { border-bottom: none; }
 .projects-list { display: flex; flex-direction: column; }
 
 .project-item {
-  padding: 2rem 0;
+  padding: .5rem 0;
   display: grid;
   grid-template-columns: 56px 1fr;
   gap: 1.5rem;
