@@ -286,7 +286,6 @@ section:last-of-type { border-bottom: none; }
 
 .project-item {
   padding: 2rem 0;
-  border-bottom: 1px solid var(--border);
   display: grid;
   grid-template-columns: 56px 1fr;
   gap: 1.5rem;
